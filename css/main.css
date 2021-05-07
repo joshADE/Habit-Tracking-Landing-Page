@@ -303,7 +303,7 @@ section {
     top: 0;
     height: 100%;
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 42% 100%);
-    background: linear-gradient(0deg, rgba(165, 162, 97, 0.43), rgba(165, 162, 97, 0.43)), url(/images/cameron-venti-I1EWTM5mFEM-unsplash.jpg) no-repeat left bottom;
+    background: linear-gradient(0deg, rgba(165, 162, 97, 0.43), rgba(165, 162, 97, 0.43)), url(https://joshade.github.io/Habit-Tracking-Landing-Page/images/cameron-venti-I1EWTM5mFEM-unsplash.jpg) no-repeat left bottom;
     background-size: cover;
     border-radius: 5px;
   }
