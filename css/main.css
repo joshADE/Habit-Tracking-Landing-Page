@@ -144,7 +144,6 @@ display: none;
 .navbar__links {
   list-style-type: none;
   transition: all 1s ease;
-  overflow: hidden;
   padding-left: 0;
   /* Fixes */
   display: flex;
@@ -154,8 +153,28 @@ display: none;
 
 }
 
-.navbar__links li {
+.navbar__links > li {
   margin-left: 20px;
+  position: relative;
+}
+
+.nav-dropdown svg {
+  fill: var(--primary-color6);
+}
+
+.navbar__links li ul {
+  background-color: var(--primary-color);
+  display: none;
+  position: absolute;
+  top: 100%;
+  list-style-type: none;
+  z-index: 999999;
+  border: 1px solid var(--primary-color2);
+  border-top: none;
+}
+
+.navbar__links li:hover ul {
+  display: block;
 }
 
 @media screen and (min-width: 780px) {
